@@ -1,0 +1,22 @@
+@'
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+.env
+
+# OS
+.DS_Store
+
+# Data (avoid committing real datasets)
+data/
+*/trajectories/
+*/nextProblem/
+*/asts/
+
+# Logs / temp
+*.log
+tmp/
+'@ | Out-File -Encoding utf8 .gitignore
