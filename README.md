@@ -1,6 +1,6 @@
-# Vp2scratch
+# vis2scr
 
-Toolkit to transform custom / Hour of Code / Karel / Visual Programming style AST or trace data into a Scratch 3.0–like `project.json` blocks structure.
+Code representation & sequence learning utilities for visual programming traces/AST → Scratch 3.0 style blocks (companion to the paper "Code Representation and Sequence Learning for Visual Programming Language").
 
 ## Project Layout
 
@@ -68,6 +68,19 @@ Add more cases under `tests/` for new language constructs.
 
 PRs welcome. Keep changes modular and add tests for new behavior.
 
-## License
+## Citation
+If you use this repository, please cite the paper (replace with real citation once published):
 
-Add a LICENSE file (MIT / Apache-2.0 etc.).
+BibTeX (placeholder):
+```
+@inproceedings{lyquentxy2025vis2scr,
+   title={Code Representation and Sequence Learning for Visual Programming Language},
+   author={Lyquentxy},
+   year={2025},
+   booktitle={Proceedings of ...},
+   publisher={...}
+}
+```
+
+## License
+MIT © 2025 lyquentxy
