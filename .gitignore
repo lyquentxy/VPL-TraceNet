@@ -1,4 +1,3 @@
-@'
 # Python
 __pycache__/
 *.py[cod]
@@ -19,4 +18,6 @@ data/
 # Logs / temp
 *.log
 tmp/
-'@ | Out-File -Encoding utf8 .gitignore
+
+# Exclude helper scripts from publication
+scripts/
