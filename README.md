@@ -1,4 +1,4 @@
-# vis2scr
+# VPL-TraceNet
 
 Code representation & sequence learning utilities for visual programming traces/AST → Scratch 3.0 style blocks (companion to the paper "Code Representation and Sequence Learning for Visual Programming Language").
 
